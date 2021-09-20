@@ -1,4 +1,3 @@
-i = 1
 while True:
     i = int(input())
     if i < 10:
