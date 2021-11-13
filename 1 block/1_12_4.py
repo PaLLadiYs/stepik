@@ -9,11 +9,11 @@ if f == 'треугольник':
     p = (a + b + c) / 2
     s = (p * (p - a) * (p - b) * (p - c)) ** (1 / 2)
     print(s)
-elif f == 'прямоугольник':
+if f == 'прямоугольник':
     a = int(input())
     b = int(input())
     print(a * b)
-elif f == 'круг':
+if f == 'круг':
     r = int(input())
     pi = 3.14
     print(r ** 2 * pi)
